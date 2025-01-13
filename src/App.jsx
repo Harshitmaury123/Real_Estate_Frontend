@@ -18,7 +18,7 @@ const RealEstateForm = () => {
   useEffect(() => {
     const fetchLocations = async () => {
       try {
-        const response = await axios.get("http://127.0.0.1:5000/get-location-names");
+        const response = await axios.get("https://real-estate-backend-i679.onrender.com/get-location-names");
         setLocations(response.data.locations || []);
       } catch (err) {
         console.error("Error fetching locations:", err);
@@ -50,7 +50,7 @@ const RealEstateForm = () => {
     setLoading(true);
     try {
       const response = await axios.post(
-        "http://127.0.0.1:5000/get-estimated-price",
+        "https://real-estate-backend-i679.onrender.com/get-estimated-price",
         qs.stringify({
           location,
           bhk: Number(bhk),
