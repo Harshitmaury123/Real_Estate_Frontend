@@ -77,49 +77,8 @@ This project predicts real estate prices based on user-provided input features, 
 
 ---
 
-## File Structure
-```
-project-root
-├── backend
-│   ├── app.py             # Backend server
-│   ├── model.pkl          # Trained machine learning model
-│   ├── requirements.txt   # Backend dependencies
-│   └── train_model.py     # Script to train the model
-├── frontend
-│   ├── public
-│   ├── src
-│   │   ├── components
-│   │   ├── App.js         # Main React component
-│   │   └── api.js         # API integration
-│   └── package.json       # Frontend dependencies
-└── README.md
-```
-
----
-
 ## Technologies Used
 - **Frontend**: React, CSS, HTML
 - **Backend**: Flask (or Django)
 - **Machine Learning**: Scikit-learn, Pandas, NumPy
 
----
-
-## Future Enhancements
-- Add more features, such as crime rates, school ratings, and transport facilities.
-- Enhance the machine learning model with more advanced algorithms.
-- Include data visualization for market trends.
-
----
-
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
-
-## Contact
-For any questions or support, please contact [Nilang Bhuva](mailto:your-email@example.com).
-
----
-
-## GitHub Repository
-Feel free to explore, fork, and contribute to the project at: [GitHub Repository Link](https://github.com/your-username/real-estate-price-prediction)
